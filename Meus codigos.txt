@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html>
+
+
+
+    <head>
+	   
+	   <title>Meu programa</title>
+	   
+	   <meta charset="utf-8"/>
+    
+    </head>
+    
+    <body>
+    
+    <h6>Titulo do meu texto</h6>
+
+    <h5>Titulo do meu texto</h5>
+    
+    <h4>Titulo do meu texto</h4>
+    
+    <h3>Titulo do meu texto</h3>
+    
+    <h2>Titulo do meu texto</h2>
+    
+    <h1>Titulo do meu texto</h1>
+    
+    <p>krrkflçr~flçrklrklefkflkrrklverhrhfkvdlvjelkvlwkcejlrkckrlgirckrlklrkpvrgkroivreçlvrgorjvrgkrkvrelçfrkl</p>
+    
+    <img src="imagem.jpg" width="100px" height="200px" />
+    
+    <a target="_blank" href="https://www.google.com.br">Meu link</a>
+        <div>
+        	<h2>Titulo do meu conteúdo</h2>
+        	<p>Conteúdo</p>
+        </div>
+        <div>
+        	<h2>Titulo do meu conteúdo</h2>
+        	<p>Conteúdo</p>
+        </div>
+        <div>
+        	<h2>Titulo do meu conteúdo</h2>
+        	<p>Conteúdo</p>
+        </div> -->
+        <table width="900" border="2" align="center">
+        	<thead>
+        	<tr>
+        		<th>Nome:</th>
+                <th>Idade:</th>
+                <th>Cargo</th>
+            </thead>
+            <tbody>
+        	</tr>
+        	<tr>
+        		<td>Gabriel Cordeiro de Moraes</td>
+                <td>21</td>
+                <td>Futuro Programador</td>
+
+        	</tr>
+            </tbody>
+        </table>
+        <form>
+        	<input type="text" name="Nome"/>
+        	<textarea></textarea>
+        	<input type="submit" value="enviar" />
+        </form>
+	</body>
+</html>
+
+2o codigo
+
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Titulo aqui</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		
+	</style>
+</head>
+<body>
+    
+    <div id="div1">
+        <h1>Meu titulo 1</h1>
+        <h2>Meu titulo 2</h2>
+    </div>
+
+</body>
+</html>
+
+Criando o primeiro estilo em CSS
+
+#div1 > h1{
+    color: : red;
+}
+#div2 h1{
+	color: orange; 
+}
+
+Meu primeiro menu
+
+Código HTML
+
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Titulo aqui</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		
+	</style>
+</head>
+<body>
+    
+   <div class="menu">
+   	<a href="">Home</a>
+    <a href="">Produtos</a>
+    <a href="">Sobre</a>
+    <a href="">Contato</a>
+    <a href="">Galeria</a>
+   </div> 
+
+</body>
+</html>
+
+Estilo em CSS
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.menu{
+	width: 900px;
+    background-color: green;
+    margin: 10px auto;
+    margin left: 10px;
+    margin right: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    text-align: center;
+}
+div.menu{
+	width: 440px;
+}
+
+.menu > a{
+	border-right: 3px solid red;
+    color: orange;
+	font-size: 16px;
+	margin: 0 10px;
+}
+Meu programa
+Estilos
+*{
+     margin: 0;
+     padding: 0;
+}
+/* 
+*
+*Estilo para o conteúdo do nosso site 
+*
+*
+*/
+
+html,body{
+   height: 100%
+}
+
+.artigo{
+   width: 100%;
+   background-color: rgb(200,200,200);
+   text-align: center;
+   height: 100%
+}
+
+.artigo h1{
+	color: #756949;
+	font-size: 2em;
+	font-style: normal;
+	font-weight: bold;
+	/*font-variant: small-caps;*/
+}
+
+.artigo p{
+    color: #b4b4b4;
+    font-style:normal; 
+    font-size:17px;
+    font-weight:bold;
+    margin-top:10px;     
+    font-family:'tahoma';
+    line-height:40px;
+    text-align: left;
+    letter-spacing: 10px;
+    line-height: 90px;
+}
+Listas
+HTML
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Titulo aqui</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+<body>
+    <ul class="lista">
+    	<li>Produto 1</li>
+        <li>Produto 2</li>
+       <li class="item3">Produto 3</li>
+        <li>Produto 4</li>
+    </ul>
+</body>
+</html>
+Estilização
+*{
+     margin: 0;
+     padding: 0;
+}
+/* 
+*
+*Estilo para o conteúdo do nosso site 
+*
+*
+*/
+
+html,body{
+   height: 100%
+}
+
+.lista{
+	list-style-position: inside;
+	list-style-type: disc;
+    margin-left: 20px;
+}
+.lista li{
+    font-size: 18px;
+    color: #4b4b4b;
+    margin-top: 10px;
+}
+.lista .item3{
+	font-weight: bold;
+}
+
+
+.item3{
+	color: red;
+HTML
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Titulo aqui</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+<body>
+  <ol>
+  	<li>Item</li>
+  	<ol>
+  		<li>Sub item</li>
+        <li>Sub item</li>
+  	</ol>
+    <li>Item</li>
+    <li>Item</li>
+  </ol>  
+</body>
+</html>
+Estilização
+*{
+     margin: 0;
+     padding: 0;
+}
+/* 
+*
+*Estilo para o conteúdo do nosso site 
+*
+*
+*/
+
+html,body{
+   height: 100%
+}
+
+ol{
+	list-style-position: inside;
+	list-style-type: disc;
+}
+
+ol > li{
+	color: red;
+}
+Mais um codigo com reaproveitamento
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Titulo aqui</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+<body>
+   <p class="tipo1"></p>
+   <a href="www.google.com" class="link_ tipo1 tipo2"></a>
+</body>
+</html>
+Estilizando e reaproveitando
+*{
+
+     margin: 0;
+     
+     padding: 0;
+
+}
+/* 
+*
+*Estilo para o conteúdo do nosso site 
+*
+*
+*/
+
+html,body{
+
+   height: 100%
+
+}
+
+.tipo1{
+	color: rgb(100,100,100);
+}
+.link_{
+    font-size: 30px;
+}
+.tipo2{
+	font-size: 40px;
+}
+.alink_{
+	font-size: 30px;
+}
+Dimensionando com HTML
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Titulo aqui</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+<body>
+   <div class="header">
+   	
+
+   </div><!--header-->
+   <div class="article">
+   	
+   	
+   </div><!--article-->
+</body>
+</html>
+Estilizando dimensões
+*{
+
+     margin: 0;
+     
+     padding: 0;
+
+}
+/* 
+*
+*Estilo para o conteúdo do nosso site 
+*
+*
+*/
+
+html,body{
+
+   height: 100%
+
+}
+.header{
+   width: 100%;
+   height: 200px;
+   background: gray;
+   min-width: 1280px;
+}
+
+
+.article{
+   margin: 0 auto;
+   width: 1280px; 
+   height: 10%;
+   min-height: 20%;
+   max-height: 60%;
+   background: red;
+}
