@@ -4,6 +4,8 @@ function Enviar() {
 
     if (nome.value != "") {
         alert('Obrigado sr(a) ' + nome.value + ' os seus dados foram encaminhados com sucesso');
+    } else {
+        alert('Seus dados estão incorretos');
     }
 
 }
