@@ -9,7 +9,7 @@ nav {
     width: 100%;
     display: flex;
     position: fixed;
-    background-color: rgb(179, 233, 30);
+    background-color: rgb(30, 118, 233);
     z-index: 99;
 }
 
@@ -55,7 +55,7 @@ input, textarea {
 
 input:hover, textarea:hover, input:focus, textarea:focus {
     border-color: #000066;
-    box-shadow: 5px 0px 9px #FFFF00;
+    box-shadow: 5px 0px 9px #00b7ff;
     background-color: #c9eeee;
     color: black;
     font-weight: bold;
